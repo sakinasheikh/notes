@@ -19,8 +19,8 @@ var row, colors, kyrel, return_value, rando;
     'g' => green
 */
 
-var initial_state = [ 'b', 'b', '.', 'b', 'b' ];
-var initial_state = [ 'b', 'b', '.', 'b', 'b' ];
+var initial_state = [ 'b', '.', '.', '.', '.', '.', '.', '.' ];
+
 
 function main(n) {
 
@@ -32,14 +32,10 @@ function main(n) {
 
 
   useBlue();
-  for (var i = 0; i < 5; i++) {
-    if (i === n - 1){
-      erase();
-      moveRight();
-    } else {
-      moveRight();
-    }
-  }
+  $(".dot").on("keyup",moveRight(), draw());
+  // for (var i = 0; i < 8; i++) {
+  // $()  
+    
   //   draw();
   //   moveRight();
   // }
@@ -93,12 +89,12 @@ function main(n) {
 
 
 row = {
-  x: 5
+  x: 8
 }
 
 colors = {
   empty: '#fff',
-  gray: '#ccc',
+  gray: 'red',
   blue: 'blue',
   green: 'green'
 };
