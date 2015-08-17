@@ -25,7 +25,7 @@ $(document).keypress(function(action){
 		var playerTwo = $("#start2");
 		//$("#start2").remove();
 		var newBlock2 = $(".block2").eq(counterPlayerTwo + 1);
-		(newBlock2).append("#");
+		(newBlock2).append("*");
 		counterPlayerTwo = (counterPlayerTwo + 1)
 	}
 
