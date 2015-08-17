@@ -2,11 +2,12 @@ table {
   margin: 20px;
 }
 
-/*table tr td {
+table tr td {
   height: 50px;
   width: 50px;
   padding: 10px; 
-}*/
+  border-color: solid red;
+}
 
 .end {
   border-left: solid red;
@@ -29,5 +30,5 @@ table {
 }
 
 .peace2 {
-	color: red;
+	color: rgb(255,0,255);
 }
