@@ -59,3 +59,8 @@ table tr td {
 .reset {
   display: none;
 }
+/*<!--  <center>
+    <br>
+    <a class='btn play' href='javascript:void(0);'>Play</a>
+    <a class='btn reset' href='game1.html'>Reset</a>
+  </center> -->*/

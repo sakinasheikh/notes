@@ -2,10 +2,21 @@
 var o_o = {
   each: function(list, callback) {
     //code here...
+  for(var i = 0; i < list.length; i++) {
+    var element = list[i];
+    callback(element);
+  }
   },
   map: function(list, callback){
     //code here...
+  for(var i = 0; i< list.length; i++) {
+    var element = list.map(function(list) {
+      return (list - 1);
+      callback(element);
+    });
+  }
   },
+
   filter: function(list, callback) {
     var output = [];
       for (var i = 0; i < list.length; i++) {
@@ -20,3 +31,13 @@ var o_o = {
 //expose our iterators to other files
 //such as our assertions
 module.exports = o_o;
+
+
+
+    // var output = [];
+    //   for (var i = 0; i < list.length; i++) {
+    //     if (callback(list[i])) {
+    //       output.push(list[i]);
+    //     }
+    //   }
+    //   return output;
