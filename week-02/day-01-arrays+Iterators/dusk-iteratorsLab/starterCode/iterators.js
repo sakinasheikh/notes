@@ -18,19 +18,14 @@ var o_o = {
   },
 
   filter: function(list, callback) {
-    var output = [];
-      for (var i = 0; i < list.length; i++) {
-        if (callback(list[i])) {
-          output.push(list[i]);
-        }
-      }
-      return output;
+    //code here...
   }
 };
 
 //expose our iterators to other files
 //such as our assertions
 module.exports = o_o;
+<<<<<<< HEAD
 
 
 
@@ -41,3 +36,5 @@ module.exports = o_o;
     //     }
     //   }
     //   return output;
+=======
+>>>>>>> 378a232692cc09b7562c65b71751abb72ace4793
