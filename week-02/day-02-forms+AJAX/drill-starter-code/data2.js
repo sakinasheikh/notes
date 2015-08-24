@@ -47,17 +47,61 @@
 	renderGithubLinks(data.students);
 
 
-
+//"a""p""p""l""e"
 
 //apple
+
 // var string = ("apple");
+// var placeHolder = {};
 
-// var count = string.split("");
-// //"a""p""p""l""e"
-// function countLetter(count) {
-	 
-// 	if (count !== " " ) {
+// function countLetter(string) {
 
-// 	}
-// }
+// 	var newString = string.split("");
+
+// 		newString.forEach(function (count) {
+// 			console.log(count);
+// 			if (count !== " ") {
+// 				var letter = placeHolder[count];
+				
+// 			} else if (count === undefined ) {
+// 				placeHolder[count] = 1;
+				
+// 			} else {
+// 				placeholder[count] = letter + 1;
+// 			}
+// 		});
+
+
+// };
+
+
+// countLetter("apple")
+
+var carnation = {
+	color: "purple",
+	petals: 30,
+	smellsPretty: true,
+}
+var num = carnation.petals
+for(i=num; i<0; i--) {
+	if (i %2) {
+		console.log("loves me");
+	} else {
+		console.log("loves me not");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
