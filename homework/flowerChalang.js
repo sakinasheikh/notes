@@ -16,7 +16,7 @@ function allFlowers(){
     console.log(array);
 };
 
-});
+}); 
 
 function Flower(image, color, petals, smellsPretty, origin){
    /* Properties */
